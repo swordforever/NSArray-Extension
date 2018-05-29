@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ADF96AC20BD430C00261E69 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2847334F6CF52ED9F5B5643D /* README.md */; };
 		5D8246B415D44310C55A7202 /* Pods_NSArray_Extension_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9206C1639A75DBE9814918 /* Pods_NSArray_Extension_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -281,6 +282,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				5ADF96AC20BD430C00261E69 /* README.md in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
