@@ -1,0 +1,6 @@
+framework module NSArray_Extension {
+  umbrella header "NSArray-Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

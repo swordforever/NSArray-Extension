@@ -7,6 +7,7 @@
 //
 
 #import "LRViewController.h"
+#import <NSArray_Extension/NSArray+Functional.h>
 
 @interface LRViewController ()
 

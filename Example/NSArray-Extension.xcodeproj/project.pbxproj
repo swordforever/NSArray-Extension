@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		271128665DD446D50E301348 /* Pods-NSArray-Extension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSArray-Extension_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSArray-Extension_Tests/Pods-NSArray-Extension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2847334F6CF52ED9F5B5643D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2847334F6CF52ED9F5B5643D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		34993873676A005D39C1126E /* Pods_NSArray_Extension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSArray_Extension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4568A57894EE64B706FE3358 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4568A57894EE64B706FE3358 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4CA097D35108D1BAB4B268DF /* Pods-NSArray-Extension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSArray-Extension_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSArray-Extension_Example/Pods-NSArray-Extension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NSArray-Extension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSArray-Extension_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85F326B5A0759274CF022938 /* Pods-NSArray-Extension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSArray-Extension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSArray-Extension_Tests/Pods-NSArray-Extension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BD8BDB9FF7B3A707A2C9B7E6 /* NSArray-Extension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSArray-Extension.podspec"; path = "../NSArray-Extension.podspec"; sourceTree = "<group>"; };
+		BD8BDB9FF7B3A707A2C9B7E6 /* NSArray-Extension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "NSArray-Extension.podspec"; path = "../NSArray-Extension.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA9206C1639A75DBE9814918 /* Pods_NSArray_Extension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSArray_Extension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

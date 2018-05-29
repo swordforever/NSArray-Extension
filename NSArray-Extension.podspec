@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NSArray-Extension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NSArray-Extension.'
+  s.summary          = '一个函数式的数组库，使用方法同swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
