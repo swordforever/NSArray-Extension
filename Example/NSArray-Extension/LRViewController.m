@@ -18,6 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSArray *list = @[@1, @2, @3];
+    NSArray *filterResult = [list filter:^BOOL(NSNumber *element) {
+        return element.integerValue % 2 == 0;
+    }];
+    NSLog(@"%@", filterResult);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

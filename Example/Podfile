@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'NSArray-Extension_Example' do
-  pod 'NSArray-Extension', :path => '../'
+  pod 'NSArray-Extension',:git=>'git@github.com:bloack/NSArray-Extension.git'
 
   target 'NSArray-Extension_Tests' do
     inherit! :search_paths
