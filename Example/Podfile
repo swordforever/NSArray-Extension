@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'NSArray-Extension_Example' do
+  pod 'NSArray-Extension', :path => '../'
+
+  target 'NSArray-Extension_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
