@@ -41,7 +41,7 @@
     id outputObjc = nil;
     for (id objc in self) {
         if (condition(objc)) {
-            outputObjc = outputObjc;
+            outputObjc = objc;
             break;
         }
     }
