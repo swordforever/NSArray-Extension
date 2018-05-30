@@ -1,6 +1,6 @@
 PODS:
   - Expecta (1.0.6)
-  - "Expecta+Snapshots (3.1.1)":
+  - Expecta+Snapshots (3.1.1):
     - Expecta (~> 1.0)
     - FBSnapshotTestCase/Core (~> 2.0)
     - Specta (~> 1.0)
@@ -14,34 +14,22 @@ PODS:
 
 DEPENDENCIES:
   - Expecta
-  - "Expecta+Snapshots"
+  - Expecta+Snapshots
   - FBSnapshotTestCase
-  - "NSArray-Extension (from `git@github.com:bloack/NSArray-Extension.git`)"
+  - NSArray-Extension (from `../`)
   - Specta
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Expecta
-    - "Expecta+Snapshots"
-    - FBSnapshotTestCase
-    - Specta
 
 EXTERNAL SOURCES:
   NSArray-Extension:
-    :git: "git@github.com:bloack/NSArray-Extension.git"
-
-CHECKOUT OPTIONS:
-  NSArray-Extension:
-    :commit: 7c0bb2616056c4cc0dbef962a38d5b0505155fcf
-    :git: "git@github.com:bloack/NSArray-Extension.git"
+    :path: ../
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  NSArray-Extension: 8f8dff513143246def9867e7da8e47ee7aab2b2d
+  NSArray-Extension: c69bb8b9567b957b361d6844fff10e78443e63d1
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 7c91c36b912683f4e316685c0366481493dc9819
+PODFILE CHECKSUM: 4c50ef74b6f82a6fcbe94e964f7d44b72b500ade
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.4.0
