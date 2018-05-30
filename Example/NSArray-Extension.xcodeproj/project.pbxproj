@@ -209,7 +209,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				DEEB557E6DAB795EA28FDE3F /* [CP] Embed Pods Frameworks */,
-				57EB602B69A8CEF571D9A6B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,7 +228,6 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				99503B5E3268713D61E47CCC /* [CP] Embed Pods Frameworks */,
-				EF6C22D72869BAD18D3FB191 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,21 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		57EB602B69A8CEF571D9A6B9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSArray-Extension_Example/Pods-NSArray-Extension_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6BE570346D7C257CEFAE8B76 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,21 +373,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSArray-Extension_Example/Pods-NSArray-Extension_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF6C22D72869BAD18D3FB191 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSArray-Extension_Tests/Pods-NSArray-Extension_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
