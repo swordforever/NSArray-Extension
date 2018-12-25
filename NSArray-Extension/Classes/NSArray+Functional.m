@@ -47,4 +47,18 @@
     }
     return outputObjc;
 }
+
+- (NSArray * _Nonnull)removeObjectWhere:(BOOL(^)(id element))condition{
+    NSMutableArray *ountput = nil;
+    if ([self isKindOfClass:[NSMutableArray class]]) {
+        ountput = (NSMutableArray *)self;
+    } else {
+        ountput = [NSMutableArray arrayWithArray:self];
+    }
+    NSArray *remove = [self filter:^BOOL(id element) {
+        return condition(element);
+    }];
+    [ountput removeObjectsInArray:remove];
+    return [NSArray arrayWithArray:ountput];
+}
 @end

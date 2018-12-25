@@ -41,4 +41,11 @@
  */
 - (_Nullable id)firstObjectWhere:(BOOL(^)(id element))condition;
 
+/**
+ 移除满足条件的元素
+
+ @param condition 条件
+ @return 新的数组
+ */
+- (NSArray * _Nonnull)removeObjectWhere:(BOOL(^)(id element))condition;
 @end
